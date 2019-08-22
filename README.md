@@ -11,7 +11,7 @@ Script will be available from the AE menubar File -> Scripts at next launch.
 
 Launch the script from the menubar File -> Scripts and you'll be presented with a window with a brief description of the script's current function and limitations.
 
-Your AE project must be saved prior to running the script.
 All queued jobs in the AE render queue will be submitted to Tractor for rendering.
+Set up your render queue as desired and save your AE project prior to running the script.
 
-This script does not (yet) distribute frames across multiple machines.  Like I said above, it's very basic.
+This script does not (yet) distribute frames across multiple machines.  It simply takes whatever is in the render queue and hands it to a single machine on your render farm.  Like I said above, it's very basic.
