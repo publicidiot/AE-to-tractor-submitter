@@ -42,7 +42,7 @@ function getAEbinPath(){
     versionString = " " + versionNum;
 	
 	//build path to aerender binary
-	if (versionNum < 17) {
+	if (versionNum < 2020) {
 		binPath = "/Applications/Adobe After Effects " + suiteString + versionString + "/aerender";
 		}
 	else {
